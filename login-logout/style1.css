@@ -1,0 +1,64 @@
+*{box-sizing: border-box;}
+
+.form-container {
+    max-width: 350px;
+    max-height: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    background-color: #000;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #fff;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #e50914;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 330px;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  .form-container .btn:hover, .open-button:hover {
+      opacity: 1;
+    }
+
+    .form-in h1{
+        color : white;
+    }
+    .form-in p{
+        color:grey;
+    }
+    .form-in a{
+        color: #fff;
+    }
+
+    .form-up h1{
+        color:white;
+    }
+
+    .form-up p{
+        color:grey;
+        
+    }
+    .form-up a{
+        color: #fff;
+    }
